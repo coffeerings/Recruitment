@@ -1,0 +1,113 @@
+html, body{
+	background:#132B3C;
+	text-align:left;
+}
+h1{
+	font-size:3em;
+	font-weight:bold;
+	margin:0.5em 0 1em 0;
+	color:#ffffff;
+}
+h2{
+	font-size:2.2em;
+	font-weight:bold;
+	margin:0.5em 0 1.5em 0;
+	color:#ffffff;
+}
+hr{
+	border:0;
+	border-bottom:1px dotted #ffffff;
+	height: 0px;
+	clear:left;
+	width:100%;
+	padding:15px 0 0 0;
+	margin-bottom:20px;
+}
+p, li{
+	color:#d9dcde;
+	line-height:1.5em;
+	margin:0 0 1em 0;
+}
+strong{
+	font-weight:bold;
+}
+strong.highlight{
+	font-weight:bold;
+	color:#132B3C;
+	background:#BA740E;
+}
+a{
+	color:#ffffff;
+}
+ol{
+	margin-left:30px;
+}
+ol li{
+	list-style:decimal;
+}
+em{
+	font-style:italic;
+}
+#content{
+	width:860px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:20px;
+}
+#header{
+	width:100%;
+	height:200px;
+}
+	#header img#logo-frog{
+		float:right;
+		margin-left:20px;
+		margin-top:15px;
+	}
+	#header #links a{
+		display:block;
+		float:left;
+		font-size:1.2em;
+		font-weight:bold;
+		color:#ffffff;
+		text-decoration:none;
+		margin-right:30px;
+		padding-top:5px;
+	}
+	#header #links a:hover{
+		text-decoration:underline;
+	}
+.pod{
+	float:left;
+	width:275px;
+	margin:0px 15px 0 15px;
+}
+.pod-large{
+	float:left;
+	width:570px;
+	margin:0px 15px 0 0;
+}
+.outer{
+	margin:0;
+}
+ 	.pod h2{
+		text-align:center;	
+	}
+	.pod img{
+		margin-top:15px;
+	}
+ul#skills li{
+	padding:0 0 0px 35px;
+}
+	ul#skills li#hackers{
+		background:url(/images/icons/heart_fill_24x21.png) no-repeat;
+	}
+	ul#skills li#communicators{
+		background:url(/images/icons/chat_24x24.png) no-repeat;
+	}
+	ul#skills li#tea{
+		background:url(/images/icons/tea_26x21.png) no-repeat;
+	}
+#cc{
+	float:left;
+	margin-right:15px;
+}
